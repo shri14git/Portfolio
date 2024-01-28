@@ -1,1 +1,139 @@
-hello this is portfolio
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .id
+        {
+border-radius:200px;
+height:300px;
+width:300px;
+        }
+        
+        }
+		h3
+		{
+		}
+		.about
+		{
+		position:absolute;
+		top:3px;
+		left:400px;
+		color:black;
+            font-family:cursive;
+            
+            padding:30px;
+            border-radius:60px;
+			font-size:90px;
+		}
+.main
+{
+border:2px  solid cyan;
+padding:20px;
+text-align:justify;
+background-color:#D3D3D3;
+font-size:20px;
+}
+body{
+border:2px  solid cyan;
+padding:20px;
+text-align:justify;
+background-color:#D3D3D3;
+font-size:20px;
+}
+.email
+{
+position:absolute;
+		top:340px;
+		left:1000px;
+}
+.down{
+line-height:1.6;
+background-color:#E5E4E2;
+border:2px  solid cyan;
+font-size:20px;
+
+}
+p
+{
+line-height:1.6;
+}
+.skills
+{
+line-height:2.6;
+font-style:bold;
+font-size:20px;
+}
+.pro
+{
+position:absolute;
+		top:430px;
+		left:1000px;
+font-size:20px;
+}
+.me
+{
+font-size:20px;
+}
+.dev
+{
+position:absolute;
+		top:430px;
+		right:20px;
+font-size:20px;
+}
+
+        </style>
+    <title>SriPortfolio</title>
+</head>
+<body>
+<div class="main">
+    <img src="./peter-burdon-VWy0C3oOmQk-unsplash.jpg"  class="id"alt="ok">
+    <h1></h1>
+    
+	<div class="about">
+	<p>
+	PANDA
+	</p>
+	<h2 class="dev">
+	MERN STACK DEVELOPER
+	</h2>
+	
+	<hr>
+	
+<p class="email"><b><a href="default.asp" target="_blank">http://panda-full-stack-developer.app</a></b></p>
+<hr></div></div>
+<div class="down">
+<h2><u>ABOUT ME</u></h2>
+<h3>Hello,my name is Panda.<br>I'm a full-stack developer<br>
+I have made a variety of <br>MERN Stack Applications <br>want to know how i may <br>help your project?</h3>
+<h2><u>SKILLS</u></h2>
+<h2>
+<ul class="skills">
+<li>REACT JS ⭐⭐⭐⭐</li>
+<li>JAVASCRIPT⭐⭐⭐⭐⭐</li>
+<li>NODE JS⭐⭐⭐⭐</li>
+<li>EXPRESS JS⭐⭐⭐</li>
+<li>MONGO DB⭐⭐⭐</li>
+<li>ADOBE ILLUSTRATOR⭐⭐⭐⭐⭐</li>
+</ul>
+</h2>
+<div class="pro">
+<h2><u>PROJECTS</u></h2>
+<p>URL SHORTNER:<br>
+Can shortern the URL to the user defined formats
+<p>INVOICE MANAGER:<br>
+MERN Stack Application where the user can create their own invoices
+<p>SOCIAL MEDIA APP<br>
+Application to use the social media for Enterntainment
+<br>
+<br>
+<h2><u>EDUCATION</u></h2>
+<p>
+B.E.COMPUTER SCIENCE AND ENGINEERING<br>
+xyz Engineering College<br>
+Chennai
+</p>
+</div>
+</div>
+</body>
+</html>
