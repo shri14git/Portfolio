@@ -1,0 +1,109 @@
+<html>
+<title>Facebook</title>
+<head>
+<style>
+.Head
+{
+text-align:center;
+ font: 20px Roboto, sans-serif;
+font-size:70px;
+font-weight:bold;
+color:blue;
+position:absolute;
+top:22%;
+left:15%;
+}
+.info
+{
+position:absolute;
+top:43%;
+left:15%;
+font: 28px Roboto, sans-serif;
+}
+form {
+  border: 3px solid #f1f1f1;
+width:27%;
+position:absolute;
+top:20%;
+right:15%;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+button {
+  background-color:blue;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius:10px;
+  cursor: pointer;
+  width: 100%;
+}
+button:hover {
+  opacity: 0.8;
+}
+.crt {
+  font: 15px Roboto, sans-serif;
+  font-family:sans-serif;
+  background-color:#00cc00;
+  border: none;
+  border-radius:10px;
+  text-align:center;
+  width: auto;
+  padding: 10px 18px;
+  transform: translate(70px, 5px);
+}
+.container {
+  padding: 20px;
+}
+span.psw {
+  text-align:center;
+  padding:88px;
+}
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .crt {
+    width: 100%;
+  }
+}
+.in
+{
+position:absolute;
+bottom:17%;
+right:17%;
+}
+</style>
+</head>
+<body>
+<p class="Head">facebook</p>
+<p class="info">Facebook helps you connect and share<br>with the people in your life.</p>
+<div>
+<form action="file:///C:/Users/acer/Downloads/profile.html" method="post">
+  <div class="container">
+    <input type="text" placeholder="Email address or phone number" name="uname" required>
+    <input type="password" placeholder="Password" name="psw" required>
+
+    <button type="submit">Login</button>
+	<span class="psw"><a href="#">Forgotten password?</a></span>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="crt">Create new account</button>
+    
+  </div>
+</form>
+</div>
+<p class="in"><b>Create a Page</b>for a celebrity,brand or business</p>
+</body>
+</html>
